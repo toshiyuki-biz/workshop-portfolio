@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Linkedin, Twitter, MessageCircle } from 'lucide-react';
+import { Mail, Linkedin, Twitter, Palette } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
@@ -8,16 +8,28 @@ const Contact: React.FC = () => {
         <h2 className="text-3xl font-bold mb-6">Contact</h2>
         <p className="text-slate-300 mb-12 max-w-xl mx-auto">
           少しでも興味を持っていただけたら、お気軽にSNSでメッセージをください。<br />
-          「動画のことについて聞きたい」「データ分析の話がしたい」など、カジュアルな話題で大歓迎です。
+          「動画のことについて聞きたい」「データ分析の話がしたい」など、カジュアルな話題で大歓迎です.
         </p>
 
         <div className="flex flex-wrap justify-center gap-6">
           <a 
-            href="#" 
+            href="https://x.com/toshiyuki_biz" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-3 bg-slate-800 hover:bg-blue-400 hover:text-white px-6 py-4 rounded-xl transition-all duration-300 group"
           >
             <Twitter className="w-6 h-6 text-slate-400 group-hover:text-white" />
             <span className="font-medium">X (Twitter)</span>
+          </a>
+
+          <a 
+            href="https://foriio.com/toshiyuki-biz" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-slate-800 hover:bg-purple-600 hover:text-white px-6 py-4 rounded-xl transition-all duration-300 group"
+          >
+            <Palette className="w-6 h-6 text-slate-400 group-hover:text-white" />
+            <span className="font-medium">foriio (Portfolio)</span>
           </a>
           
           <a 

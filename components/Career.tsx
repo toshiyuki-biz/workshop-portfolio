@@ -35,7 +35,7 @@ const Career: React.FC = () => {
         <div className="max-w-2xl mx-auto">
           <CareerItem 
             year="Early Career"
-            title="日産自動車"
+            title="自動車メーカー"
             description="製造現場の厳しさと面白さを経験。技術教育にも携わり、「人に教える・伝える」ことの基礎をここで学びました。"
             icon={<Briefcase size={20} />}
           />
@@ -47,14 +47,14 @@ const Career: React.FC = () => {
           />
           <CareerItem 
             year="20+ Years"
-            title="製薬業界でのデータ分析"
-            description="約20年間、臨床試験（治験）のデータ分析・統計解析を担当。人の命に関わるデータの正確性と、そこから導き出されるロジックの重要性を徹底的に叩き込まれました。"
+            title="製薬業界でのデータ分析・事業開発"
+            description="約20年間、新薬開発（臨床試験）を中心にデータ分析・統計解析・事業開発などを担当。人の命に関わるデータの正確性と、そこから導き出されるロジックの重要性を徹底的に叩き込まれました。自己研鑽を通じてWEBマーケティングの基礎も習得。"
             icon={<Database size={20} />}
           />
           <CareerItem 
             year="Current"
             title="Webマーケター × AI動画クリエイター"
-            description="副業としてWebマーケティング（SEO、広告、LP改善）を開始。現在は生成AIを活用したショート動画集客に注力し、データとクリエイティブの両軸で支援を行っています。"
+            description="自己研鑽や会社員時代にWebマーケティング（SEO、広告、LP改善など）を開始。現在は生成AIを活用したショートアニメ（フェイススワップを使った実写動画も対応可能）動画集客に注力し、SNS集客（運用代行）とマーケティングの両軸で支援を行っています。"
             icon={<Activity size={20} />}
             isLast={true}
           />

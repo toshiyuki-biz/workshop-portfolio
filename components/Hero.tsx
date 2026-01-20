@@ -21,8 +21,8 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-          データ分析歴20年の経験と最新の生成AIを掛け合わせ、<br className="hidden md:inline" />
-          再現性のある集客と改善を実現します。
+          製薬業界での分析経験と最新の生成AI活用により、<br className="hidden md:inline" />
+          再現性のあるSNS集客と改善を実現します。
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
